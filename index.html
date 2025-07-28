@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shrisha Kulawade | Creative Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0a192f 0%, #102b47 100%);
+      color: #f0f4f8;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding: 40px;
+      gap: 30px;
+    }
+
+    .sidebar {
+      flex: 1;
+      min-width: 300px;
+      background: linear-gradient(to right, #0d1b2a, #1b263b);
+      color: white;
+      padding: 30px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+    }
+
+    .sidebar img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 5px solid #64ffda;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    .sidebar h1 {
+      margin: 0;
+      font-size: 32px;
+      line-height: 1.4;
+      color: #64ffda;
+    }
+
+    .sidebar p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    nav {
+      margin-top: 30px;
+    }
+
+    nav a {
+      display: block;
+      color: #ffffff;
+      background: #1e2a38;
+      text-decoration: none;
+      padding: 12px;
+      margin: 8px auto;
+      width: 80%;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    nav a:hover {
+      background-color: #64ffda;
+      color: #0a192f;
+      transform: scale(1.05);
+    }
+
+    .content {
+      flex: 2;
+      min-width: 300px;
+      max-height: 90vh;
+      overflow-y: auto;
+      background: linear-gradient(to bottom, #1e2a38, #0f172a);
+      border-radius: 20px;
+      padding: 30px;
+      color: #e0f7fa;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+
+    h2 {
+      color: #64ffda;
+      border-bottom: 2px solid #64ffda;
+      padding-bottom: 8px;
+      margin-top: 30px;
+    }
+
+    .skills span {
+      display: inline-block;
+      background-color: #102b47;
+      color: #64ffda;
+      padding: 10px 18px;
+      border-radius: 25px;
+      margin: 7px;
+      font-weight: bold;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    .skills span:hover {
+      background-color: #64ffda;
+      color: #0a192f;
+      transform: scale(1.1);
+    }
+
+    .project {
+      margin-bottom: 30px;
+    }
+
+    .project img {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 10px;
+      margin-top: 10px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+    }
+
+    .resume-button {
+      display: inline-block;
+      background-color: #64ffda;
+      color: #0a192f;
+      text-decoration: none;
+      padding: 14px 30px;
+      border-radius: 35px;
+      font-weight: bold;
+      margin-top: 25px;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .resume-button:hover {
+      background-color: #1de9b6;
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #0a192f;
+      color: #64ffda;
+      text-align: center;
+      padding: 20px 10px;
+      margin-top: 30px;
+    }
+
+    a {
+      color: #1de9b6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <img src="my pick.jpeg" alt="Shrisha Kulawade Photo" />
+      <h1>Shrisha Kulawade</h1>
+      <p>Diploma IT Student<br>Amrutvahini Polytechnic, Sangamner</p>
+
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+        <a href="#resume">Resume</a>
+      </nav>
+    </div>
+
+    <div class="content">
+      <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Shrisha Kulawade, a passionate and curious learner currently pursuing a Diploma in Information Technology. I thrive on innovation and solving real-world problems through technology. My core interests lie in Artificial Intelligence, Machine Learning, Robotics, and Embedded Systems. I also enjoy working on electronics projects and exploring the world of 3D printing and automation.</p>
+        <p>I believe in continuous learning and practical implementation of knowledge. I aspire to work on impactful projects that make life easier through intelligent systems and automation. I'm also a team player, tech enthusiast, and enjoy contributing to group projects and competitions.</p>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+          <span>C</span>
+          <span>C++</span>
+          <span>Python</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>AI</span>
+          <span>Machine Learning</span>
+          <span>Deep Learning</span>
+          <span>Robotics</span>
+          <span>Embedded Systems</span>
+          <span>IoT</span>
+          <span>3D Printing</span>
+          <span>Electronics</span>
+          <span>Circuit Design</span>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+          <h3>🎯 ArUco Marker Object Detection</h3>
+          <p>A GUI tool for object detection using ArUco markers with real-time area calculation and inventory recognition.</p>
+          <img src="aruco-project.jpg" alt="ArUco Marker Object Detection" />
+        </div>
+        <div class="project">
+          <h3>🕷️ Spider Robot</h3>
+          <p>Designed and built a six-legged robot that mimics spider movement and is remotely controlled via a custom interface.</p>
+          <img src="spider-robot.jpg" alt="Spider Robot" />
+        </div>
+        <div class="project">
+          <h3>🤖 AI-Based Personal Assistant</h3>
+          <p>Developed a voice-controlled assistant using Python, integrated with speech recognition and NLP for real-time responses.</p>
+          <img src="ai-assistant.jpg" alt="AI Assistant" />
+        </div>
+        <div class="project">
+          <h3>📦 Inventory Management System with ArUco</h3>
+          <p>Automated inventory tracking system that scans and identifies products using ArUco markers and updates stock data.</p>
+          <img src="inventory-system.jpg" alt="Inventory Management System" />
+        </div>
+        <div class="project">
+          <h3>📱 Smart Attendance System</h3>
+          <p>Uses facial recognition for attendance logging, reducing manual entries and enhancing accuracy and security.</p>
+          <img src="attendance-system.jpg" alt="Smart Attendance System" />
+        </div>
+        <div class="project">
+          <h3>🧠 ML-Based Emotion Detection</h3>
+          <p>Built a machine learning model to classify human emotions using webcam feed and OpenCV.</p>
+          <img src="emotion-detection.jpg" alt="Emotion Detection" />
+        </div>
+      </section>
+
+      <section id="experience">
+        <h2>Experience</h2>
+        <p>I completed an implant training program at <strong>PHN Technology, Pune</strong> where I gained in-depth exposure to AI, ML, and robotics. My hands-on learning included sensor integration, electronics testing, and developing working prototypes. This experience deepened my practical understanding of combining hardware with intelligent software systems.</p>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <p><strong>Diploma in Information Technology</strong> (2023 - 2026) - Third Year, Amrutvahini Polytechnic, Sangamner</p>
+        <p><strong>10th Standard</strong> (2022 - 2023) - Saraswati Vidyalaya, Udapur — 82.20%</p>
+      </section>
+
+      <section id="certificates">
+        <h2>Certificates</h2>
+        <p>✔️ Certified in <strong>C Programming</strong> at Matoshree Technology</p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>📧 <a href="mailto:shrishagkulawade@gmail.com">shrishagkulawade@gmail.com</a></p>
+        <p>📞 +91 9370592024</p>
+        <p>📍 Udapur, Bankarfata, Tal: Junnar, Dist: Pune, Maharashtra, India</p>
+        <p>🔗 <a href="https://www.linkedin.com/in/shrisha-gorakshanath-kulawade-331a99356" target="_blank">LinkedIn Profile</a></p>
+      </section>
+
+      <section id="resume">
+        <h2>Resume</h2>
+        <a href="resume.pdf" download class="resume-button">📄 Download My Resume</a>
+      </section>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Shrisha Kulawade. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
